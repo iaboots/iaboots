@@ -1,0 +1,17 @@
+<aiml version="1.0">
+
+<!-- IABOOTS -->
+<category>
+<pattern>LOAD VENDEDOR</pattern>
+<template>
+
+
+<learn>bot/aiml/vendedor/saludos.aiml</learn>
+<learn>bot/aiml/vendedor/default.aiml</learn>
+<learn>bot/aiml/vendedor/productos.aiml</learn>
+<learn>bot/aiml/vendedor/ofensas.aiml</learn>
+
+
+</template>
+</category>
+</aiml>

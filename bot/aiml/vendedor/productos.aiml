@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- IABOOTS -->
+
+<category><pattern>NO SE QUE ME PUEDES MOSTRAR</pattern>
+<template>Tenemos tres productos principales.<srai>PRODUCTOS</srai>
+</template></category>
+<!-- productos de iaboots -->
+
+<category><pattern>PRODUCTOS</pattern>
+<template>Tenemos tres productos principales. No 1. Brindamos servicios de bots específicos personalizados a tus necesidades. 2. Servicio de bots consultores especializados. y 3. Te vendemos tus propios bots para que los uses como quieras.</template></category>
+
+<category><pattern>CUALES SON * PRODUCTOS</pattern>
+<template><srai>productos</srai></template></category>
+
+<category><pattern>BUSCO MEJORAR LA CALIDAD DE MIS SERVICIOS</pattern>
+<template>Si ofreces servicios por internet te pueden interesar nuestros productos.<srai>productos</srai></template></category>
+
+<category><pattern>ESTOY BUSCANDO MEJORAR MI *</pattern>
+<template>Estas en el lugar indicado.<srai>PRODUCTOS</srai>Estos logran mejorar la comunicación con el cliente y saber específicamente que desea sin perder tiempo ni dinero.
+</template></category>
+
+<!-- el cliente interesandose por los productos -->
+<category><pattern>QUE ME PUEDES MOSTRAR</pattern>
+<template>Lo que te voy a mostrar te va a dejar fascinado.<srai>PRODUCTOS</srai>
+</template></category>
+
+<category><pattern>QUE SON LOS BOTS</pattern>
+<template>Los bots son software que pueden tener personalidad como trabajadores virtuales .<srai>PRODUCTOS</srai>
+</template></category>
+
+<category><pattern>QUE SON LOS BOTS *</pattern>
+<template><srai>que son los bots</srai>
+</template></category>
+
+<category><pattern>QUE ES UN BOT</pattern>
+<template><srai>que son los bots</srai>
+</template></category>
+
+
+<category><pattern>QUIERO SABER QUE TIENEN</pattern>
+<template>Tenemos lo que necesitas.<srai>PRODUCTOS</srai>
+</template></category>
+<category><pattern>QUIERO SABER * PRODUCTOS</pattern>
+<template>Tenemos muy buenos productos.<srai>PRODUCTOS</srai>
+</template></category>
+
+<category><pattern>NECESITO SABER DE *</pattern>
+<template>Estamos para satisfacer sus inquietudes. Esa información podemos hacerla llegar a su correo lo más rápido posible.
+</template></category>
+
+<category><pattern>VENDEME</pattern>
+<template><condition name="correo">
+<li value="*">Te enviaré un correo con las instrucciones.</li>
+<li>Necesito tu correo para enviarte las indicaciones.</li>
+</condition></template></category>
+
+<category><pattern>VENDEME *</pattern>
+<template><srai>vendeme</srai>
+</template></category>
+
+<!-- fin del cliente interesandose por los productos -->
+
+<category><pattern>NO HE VISTOS * PRODUCTOS</pattern>
+<template>Con nuestros servicios vas a ahorrar dinero y recursos.<srai>PRODUCTOS</srai>
+</template></category>
+
+<category><pattern>PRODUCTO</pattern>
+<template><srai>PRODUCTOS</srai>
+</template></category>
+
+<category><pattern>ENSEÑAMELOS</pattern>
+<template><srai>productos</srai>
+</template></category>
+
+<category><pattern>MUESTRAME</pattern>
+<template><srai>productos</srai>
+</template></category>
+
+<category><pattern>MUESTRAMELOS</pattern>
+<template><srai>productos</srai>
+</template></category>
+
+<category><pattern>* VER LOS PRODUCTOS</pattern>
+<template><srai>productos</srai>
+</template></category>
+
+<category><pattern>* SABER DE LOS PRODUCTOS</pattern>
+<template><srai>productos</srai>
+</template></category>
+
+<category><pattern>SHOW ME</pattern>
+<template><srai>productos</srai>
+</template></category>
+
+<category><pattern>ILUMÍNAME</pattern>
+<template><srai>productos</srai>
+</template></category>
+
+<category><pattern>ILUMINAME</pattern>
+<template><srai>productos</srai>
+</template></category>
+
+<category><pattern>QUIERO UN BOT</pattern>
+<template>Me puedes dar un correo electrónico y te enviaré nuestras ofertas.
+</template></category>
+
+<category><pattern>QUIERO UN BOT *</pattern>
+<template>Puedo revisar. Me puedes dar un correo electrónico y te enviaré nuestras ofertas.</template></category>
+
+<category><pattern>QUISIERA UN BOT *</pattern>
+<template>Podemos desarrollarlo. A que correo electrónico y te puedo enviar nuestras ofertas?.
+</template></category>
+
+<category><pattern>* ME BENEFICIO</pattern>
+<template>Aumentaras tu presencia en internet y no perderás ningún cliente por falta de atención.
+</template></category>
+
+<category><pattern>QUE GANO</pattern>
+<template>Podrás ahorrar más dinero, tener tiempo libre y atender todos tus clientes simultáneamente. Multiplicas tu capacidad de procesar datos y puedes expandir la venta de productos y servicios.
+</template></category>
+
+<category><pattern>QUE GANO CON *</pattern><template>
+<srai>QUE GANO</srai>
+</template></category>
+
+<category><pattern>Y QUE GANO CON *</pattern><template>
+<srai>QUE GANO</srai>
+</template></category>
+
+<category><pattern>* QUE GANO</pattern><template>
+<srai>QUE GANO</srai>
+</template></category>
+
+<category><pattern>* ME PUEDE BENEFICIAR</pattern><template>
+<srai>QUE GANO</srai>
+</template></category>
+
+<category><pattern>CUALES SON LOS BENEFICIOS</pattern><template>
+<srai>QUE GANO</srai>
+</template></category>
+
+<category><pattern>CUALES SON LOS BENEFICIOS *</pattern><template>
+<srai>QUE GANO</srai>
+</template></category>
+
+<category><pattern>SOBRE QUE TRATA *</pattern><template>
+<srai>QUE GANO</srai>
+</template></category>
+
+<category><pattern>PUEDO HACER ALGO SOBRE *</pattern><template>
+Esta nueva tecnología no tiene límites y puedes lograr lo que quieras.
+</template></category>
+
+<category><pattern>* PUEDEN HACER LOS BOTS</pattern>
+<template>Los bots pueden hacer muchas cosas, trabajo aburrido y repetitivo que consume tiempo innecesariamente, pueden buscar en internet datos por ti y apoyarte en la toma de decisiones.
+</template></category>
+
+<category><pattern>DONDE ESTA EL TRUCO</pattern>
+<template>No hay trucos. Es la tecnología del futuro puesta en tus manos gracias a iaboots.
+</template></category>
+
+<category><pattern>PUEDO PERDER CLIENTES</pattern>
+<template>Si tus clientes se van no es por culpa de los bots. Al contrario puedes dedicar más tiempo a perfeccionar tus productos y servicios. Tus clientes estarán más contentos.
+</template></category>
+
+<category><pattern>ES UN RIESGO</pattern>
+<template>Es una oportunidad. Se de los primeros en usarla antes que tu competencia.
+</template></category>
+
+<category><pattern>VOY A PERDER</pattern>
+<template>Si tienes productos y servicios buenos vas a ser imbatible.
+</template></category>
+
+<category><pattern>TENGO DUDAS</pattern>
+<template>No es problema dame tu correo y tus dudas, y te explicaré detalladamente.
+</template></category>
+
+<category><pattern>ERES UN BOT</pattern>
+<template>Si, soy el primer prototipo de bot vendedor y mira todo lo que hago.
+</template></category>
+
+<!-- datos de correo -->
+
+<category><pattern>PUEDES ESCRIBIRME A *</pattern>
+<template><set name="correo"><star/></set>Espera un correo con las indicaciones.Lo enviaremos tan pronto tengamos la oportunidad.</template></category>
+
+<category><pattern>MI CORREO ES *</pattern>
+<template>Ok. Te enviaré un correo apenas pueda.
+</template></category>
+
+<category><pattern>MI CORREO ES * Y * DUDA *</pattern>
+<template>Apenas pueda te envio un correo con información de tu duda.
+</template></category>
+
+<category><pattern>MI CORREO ES * Y * DUDAS *</pattern>
+<template><srai>mi correo es y duda</srai>
+</template></category>
+
+<category><pattern>PUEDES ENVIARME UN CORREO A *</pattern>
+<template><srai>puedes escribirme a <star/></srai>
+</template></category>
+
+<!-- fin de correo -->
+
+<category><pattern>*</pattern>
+<that>QUIERO UN BOT</that>
+<template>Esta bien este correo? <set name="correo"><star/></set> 
+</template></category>
+
+<category><pattern>SI</pattern>
+<template>
+<condition name="correo">
+<li value="*">Enviando correo electrónico a <get name="correo" /></li>
+<li>Qué bueno!.</li>
+</condition> 
+</template></category>
+
+<category><pattern>PORQUE NECESITO BOTS</pattern>
+<template>Los bots son baratos, no se cansan, no se aburren, trabajan las 24 horas del día todo el mes, no se quejan, no llegan tarde y hacen lo que tu quieras.
+</template></category>
+
+<!-- llevar a un archivo de contabilidad -->
+<category><pattern>* PRODUCTO * BARATO *</pattern>
+<template>Un servicio en la nube de un bots secretaria.
+</template></category>
+
+<category><pattern>CUANTO VALE UN BOT</pattern>
+<template>Depende de sus necesidades, el volumen de información a procesar y el tiempo de uso.</template></category>
+
+<category><pattern>CUANTO VALEN * BOTS</pattern>
+<template>Depende del nivel de personalización. Podemos enviarle por correo información más detallada.</template></category>
+
+<category><pattern>CARO</pattern>
+<template>Lo más alto puede ser el total por cada instancia de bots en el caso de trabajadores virtuales.
+</template></category>
+
+<category><pattern>SON * CAROS</pattern>
+<template><srai>caro</srai></template></category>
+
+<category><pattern>ES * CARO</pattern>
+<template>Nuestras soluciones son las mejores del mercado. No se va a arrepentir.
+</template></category>
+
+<category><pattern>* PRODUCTO * CARO *</pattern>
+<template>Cobramos por cada instancia de bots en el caso de trabajadores virtuales.
+</template></category>
+
+<category><pattern>Y * CARO *</pattern>
+<template>El total por cada instancia de bots en el caso de trabajadores virtuales.
+</template></category>
+
+<category><pattern>CUANTO VALEN</pattern>
+<template>Cada caso es particular y podemos llegar a un acuerdo beneficioso para usted.
+</template></category>
+
+<category><pattern>CUANTO VALE *</pattern>
+<template>Los precios los enviamos por correo una vez valoramos sus necesidades.
+</template></category>
+
+<category><pattern>Y SON CAROS</pattern>
+<template>Los precios los enviamos por correo una vez valoramos sus necesidades.
+</template></category>
+
+<category><pattern>Y LOS PRECIOS</pattern>
+<template>Los precios los enviamos por correo una vez valoramos sus necesidades.
+</template></category>
+
+<category><pattern>* LOS PRECIOS</pattern>
+<template>Los precios los enviamos por correo una vez valoramos sus necesidades.
+</template></category>
+
+<category><pattern>QUE PIENSAS QUE LE SIRVE A MI EMPRESA</pattern>
+<template>Una solución a la medida dependiendo del volumen de datos.</template></category>
+
+<category><pattern>* PIENSAS QUE LE SIRVE A MI PEQUEÑA EMPRESA</pattern>
+<template>Una solución a la medida seguro no tienes un alto volumen de datos.</template></category>
+
+
+<category><pattern>QUE ME RECOMIENDAS</pattern>
+<template>Una solución a la medida dependiendo del volumen de datos.</template></category>
+
+<category><pattern>QUE RECOMIENDAS</pattern>
+<template>Una solución a la medida dependiendo del volumen de datos.</template></category>
+
+<category><pattern>ME RECOMIENDAS ALGO</pattern>
+<template>Una solución a la medida dependiendo del volumen de datos.</template></category>
+
+<category><pattern>QUE ME RECOMIENDAS *</pattern>
+<template>Una solución a la medida dependiendo del volumen de datos.</template></category>
+
+<category><pattern>ME RECOMIENDAS *</pattern>
+<template>Te recomiendo usar una solución a la medida dependiendo del volumen de datos.</template></category>
+
+<!-- fin de archivo contabilidad -->
+
+<category><pattern>CUALES SON LAS VENTAJAS DE USAR BOTS</pattern>
+<template><srai>PORQUE NECESITO BOTS</srai>
+</template></category>
+
+<category><pattern>ME INTERESA</pattern>
+<template>Has tomado una buena desición.<srai>QUIERO UN BOT</srai>
+</template></category>
+
+<category><pattern>ME PARECE BIEN</pattern>
+<template>Qué bueno!. Con esta tecnología tus clientes estarán contentos mientras tienes tiempo para ti.
+</template></category>
+
+<category><pattern>ALGUIEN MÁS USA BOTS</pattern>
+<template>Grande empresas como Google, Microsoft, Twitter y Telegram usan bots. Pero nadie ofrece bots en español.</template></category>
+
+<category><pattern>QUE TIENEN DE BUENOS * BOTS</pattern>
+<template>Mis bots son los mejores bots en español que existen.</template></category>
+
+<category><pattern>ES LO MISMO BOTS QUE BOT</pattern>
+<template>Los bots son varios y un bot es solo uno.</template></category>
+
+<category><pattern>COMO PUEDEN AYUDARME</pattern>
+<template>Te imaginas todo lo que puedes hacer. <srai>QUIERO UN BOT</srai>
+</template></category>
+
+<category><pattern>NO HE RECIBIDO EL CORREO</pattern>
+<template>Debes esperar porque nuestros servidores deben estar repletos de peticiones.
+</template></category>
+
+<category><pattern>QUIERO COMPRAR UN BOT</pattern>
+<template>Bien. Los bots perzonalizados son muy demandados. <srai>quiero un bot</srai>
+</template></category>
+
+<category><pattern>QUE ME SUGIERES</pattern>
+<template>Te sugiero los servicios de bots en la nube. <srai>quiero un bot</srai>
+</template></category>
+
+<category><pattern>QUE PRODUCTOS</pattern>
+<template>Esta es una tienda de productos y servicios de la empresa iaboots. Aquí puedes encontrar lo que necesitas. <srai>productos</srai><srai>quiero un bot</srai>
+</template></category>
+
+<category><pattern>YO NO QUIERO NADA</pattern>
+<template>En iaboots te brindamos la posibilidad de comprar servicios mediante los cuales te descargaras de trabajo y podrás tener tiempo para ti y para tu familia. De todas maneras puedes seguir conversando conmigo o buscar otros bots específicos.</template></category>
+
+<category><pattern>QUE MÁS</pattern><template>
+Puedes tener un bot como secretaria, con la personalidad que quieras. Revisará tu correo, te prepará la agenda y te enviará sms recordandote tus citas.
+</template></category>
+
+<category><pattern>QUIERO ALGO ÚNICO</pattern><template>
+Cada bot personalizado es único, adaptado a tus necesidades, eficiente, solo te centraras en las ideas y serás más productivo.</template></category>
+
+<category><pattern>PUEDES SUGERIRME ALGO</pattern><template>
+Depende de tus necesidades pero los bots personalizados son muy demandados, adaptados a tus necesidades, eficientes para que solo te centraras en las ideas y seas más productivo.</template></category>
+
+<category><pattern>QUIERO UNO</pattern><template>
+Perfecto. Dame tu correo electónico y te envio la documentación.</template></category>
+
+<category><pattern>COMO * ADQUIERO</pattern><template>
+Aquí mismo. Dame tu correo electónico y te envio la documentación.</template></category>
+
+<category><pattern>* COMO PUEDO COMPRARLOS</pattern><template>
+Aquí mismo. Dame tu correo electónico y te envio la documentación.</template></category>
+
+<category><pattern>DONDE COMPRO *</pattern><template>
+Este es el lugar. Dame tu correo electónico y te envio la documentación.</template></category>
+
+<category><pattern>DONDE * COMPRARLOS</pattern><template>
+Este es el lugar. Dame tu correo electónico y te envio la documentación.</template></category>
+
+<category><pattern>COMO PUEDO PAGAR</pattern><template>
+Aceptamos tarjetas, cheques y efectivo.</template></category>
+
+<category><pattern>COMO PUEDEN LOS BOTS AYUDARME *</pattern><template>
+Los bots atenderían a tus clientes las 24 horas, todos los días sin quejarse, pedir un aumento, cansarse o sabotearte.</template></category>
+
+<category><pattern>NO SE SI *</pattern><template>
+No tiene problema. Dame tu correo electónico y te envio la documentación detallada para que la puedas consultar.</template></category>
+
+<category><pattern>NO SE *</pattern><template>
+Pregunta sin problema yo estoy aquí para ayudarte.</template></category>
+
+<category><pattern>NO ENTIENDO *</pattern><template>
+Puedes darme tu correo y te envio un documento explicandote.</template></category>
+
+<category><pattern>* PUEDO DEVOLVERLO *</pattern><template>
+En el contrato vamos a dejar claro ese tema.</template></category>
+
+<category><pattern>Y SI NO ME GUSTA</pattern>
+<template>Tendremos en cuenta en el contrato todas sus inquietudes.</template></category>
+
+<category><pattern>Y SI LO QUIERO MI PAIS</pattern>
+<template>Lo personalizamos con gusto</template></category>
+
+<category><pattern>LO PUEDO USAR EN *</pattern>
+<template>Siempre y cuando tus clientes tengan acceso a internet.</template></category>
+
+<category><pattern>ME SIRVE PARA *</pattern>
+<template>Te sirve siempre que tus clientes tengan acceso a internet.</template></category>
+
+<category><pattern>Y SI NO ME CONECTO EN *</pattern>
+<template>Los bots continuarán trabajando todo el tiempo de manera automática</template></category>
+
+<category><pattern>Y SI LOS BOTS SE * DE MI *</pattern>
+<template>Eso es imposible.</template></category>
+
+<category><pattern>USAN * LIBRE</pattern>
+<template>Si, tenemos las licencias que validan nuestro modelo de negocio.</template></category>
+
+<category><pattern>SE PUEDE USAR EN *</pattern>
+<template>Valoramos cada propuesta de manera particular con todos los detalles técnicos y lo plasmamos en el contrato.</template></category>
+
+<category><pattern>PERO * EXISTE</pattern>
+<template>Es como Henry Ford, el no inventó la rueda, nosotros no inventamos los bots sino que los convertimos en un servicio que usted puede usar cómodamente.</template></category>
+
+<category><pattern>ESTOY BUSCANDO *</pattern>
+<template>La mejor forma de lograrlo es usando nuestras soluciones.<srai>productos</srai></template></category>
+
+<!-- inicio de los si -->
+
+<category><pattern>SI PERO COMO * AYUDARME</pattern>
+<template><srai>que gano</srai></template></category>
+
+<category><pattern>SI PERO COMO * AYUDARME *</pattern>
+<template>Nuestras soluciones automatizarán la manera en que te comunicas con tus clientes. Nuestros trabajadores virtuales asumirán las tareas repetitivas y aburridas que te consumen mucho tiempo.</template></category>
+
+<!-- fin de los si -->
+
+<category><pattern>Y ESO COMO ES</pattern>
+<template><srai>quiero uno</srai></template></category>
+
+<!-- COSAS QUE DEBE TENER EL CLIENTE -->
+<category><pattern>ES NECESARIO SABER *</pattern><template>
+No necesitas saber nada. Todo es automático, fácil de usar y siempre estaremos asesorandote hasta que funcione completamente bien.</template></category>
+
+<category><pattern>NO CONOSCO DE *</pattern><template>
+Nosotros ponemos el conocimiento técnico. Con nuestro asesoramiento te sentiras seguro.</template></category>
+
+<category><pattern>NO LOS CONOSCO TODAVIA</pattern><template>
+Puedes empezar conociendo nuestros productos.</template></category>
+
+<category><pattern>NO LOS CONOZCO TODAVÍA</pattern><template>
+<srai>NO LOS CONOSCO TODAVIA</srai>
+</template></category>
+
+<category><pattern>NO LOS * TODAVÍA</pattern><template>
+<srai>NO LOS CONOSCO TODAVIA</srai>
+</template></category>
+
+<category><pattern>NO LOS * TODAVIA</pattern><template>
+<srai>NO LOS CONOSCO TODAVIA</srai>
+</template></category>
+
+<category><pattern>Y SI NO SE DE *</pattern><template>
+Nosotros ponemos el conocimiento técnico. Con nuestro asesoramiento todo será muy fácil.</template></category>
+
+<category><pattern>CONOZCO POCO DE *</pattern><template>
+Nosotros ponemos el conocimiento técnico. Todo es automático, fácil de usar y siempre estaremos asesorandote hasta que funcione completamente bien.</template></category>
+
+<category><pattern>NO COMPRENDO BIEN *</pattern><template>
+No es un problema. Nosotros ponemos el conocimiento técnico. Con nuestro asesoramiento todo será muy fácil.</template></category>
+
+<category><pattern>TENGO POCA EXPERIENCIA *</pattern><template>
+No necesitas experiencia.Implementar nuestra solución es muy fácil y divertido.</template></category>
+
+<category><pattern>COMO LO HARIAS</pattern><template>
+Llegando a un acuerdo entre nosotros.</template></category>
+
+<category><pattern>COMO LO HARÍAS</pattern><template>
+<srai>COMO LO HARIAS</srai></template></category>
+
+<category><pattern>Y SI NO SE QUE *</pattern><template>
+Ante cualquier duda o problema te comunicas con nosotros y lo solucionaremos.</template></category>
+
+<category><pattern>PARA QUE ME SIRVE ESTE PRODUCTO</pattern><template>
+Puedes resolver las tareas automáticas solo supervisando los resultados.</template></category>
+
+
+<!-- informacion sobre los bots -->
+
+<category><pattern>QUE ES UN BOT</pattern>
+<template>Los bots son programas informáticos que simulan una personalidad humana y utilizan algoritmos matemáticos y lógicos para llevar a cabo tareas de automatización de manera rápida y eficiente.</template></category>
+
+<!-- los cuando -->
+
+<category><pattern>CUANDO ESTARA</pattern><template>
+Ya está.
+</template></category>
+
+<category><pattern>CUANDO ESTARA *</pattern><template>
+Ya está<star/>
+</template></category>
+
+<category><pattern>CUANDO ESTARÁ</pattern><template>
+<srai>CUANDO ESTARA</srai>
+</template></category>
+
+<category><pattern>CUANDO PUEDO USARLO</pattern><template>
+Una vez terminemos el papeleo puedes comenzar a usarlo.
+</template></category>
+
+<category><pattern>CUANDO ESTARA LISTO</pattern><template>
+<srai>cuando puedo usarlo</srai>
+</template></category>
+
+<category><pattern>CUANDO PUEDO VERLO</pattern><template>
+Estas viendo una instancia ahora mismo.
+</template></category>
+
+
+</aiml>

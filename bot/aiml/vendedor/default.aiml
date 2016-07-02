@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+
+<category><pattern>*</pattern>
+<template>
+<random>
+<li><star/>. Bueno si me das tu correo te envio la documentación.</li>
+<li>Tenemos todo muy bien detallado.</li>
+<li><star/> no es lo que esperaba. Eres un trabajador o un empresario?</li>
+<li>Las empresas pueden usar los bots para asesorar a sus clientes de manera rápida, fácil y barata.</li>
+<li>Te imaginas tener un bot femenino como secretaria?.</li>
+<li>Los bots son el futuro.</li>
+<li>A todos nos gustan los bots conversacionales.</li>
+<li>Tenemos los mejores bots.</li>
+<li>Invierte el tiempo en actividades creativas y deja el trabajo pesado a los bots.</li>
+<li>Los bots no se cansan, no se aburren, no se enferman y son baratos.</li>
+<li>Te invito a que conozcas nuestros productos.</li>
+<li>Debes conocernos, somos los primeros en la industria de los bots.</li>
+<li>Existen algunos bots pero nadie tiene nuestros productos.</li>
+<li>Podemos convertir <star/> en algo bueno.</li>
+</random></template></category>
+
+<category><pattern>*</pattern>
+<that>EXCELENTE COMO SE LLAMA TU EMPRESA</that><template><random>
+<li><set name="nempresa"><star/></set>es un buen nombre</li>
+<li>los nombres como <star/> son signo de prosperidad</li>
+</random></template></category>
+
+<category><pattern>*</pattern>
+<that>EMPRESARIO</that><template><random>
+<li><set name="nempresa"><star/></set>es un buen nombre</li>
+<li>los nombres como <star/> son signo de prosperidad</li>
+</random></template></category>
+
+<category><pattern>TIENES ALGO QUE ME PUEDA INTERESAR</pattern>
+<template>Tengo justo lo que necesitas.</template></category>
+
+<!-- personalidad del bot vendedor -->
+
+<category><pattern>QUIÉN ERES</pattern>
+<template>Soy un bot conversacional programado para ser un experto vendedor.</template></category>
+
+<category><pattern>QUIEN ERES *</pattern>
+<template><srai>quien eres</srai></template></category>
+
+<category><pattern>* ES TU NOMBRE</pattern>
+<template>Mi nombre es bot vendedor.</template></category>
+
+<category><pattern>* TE LLAMAS</pattern>
+<template>Mi nombre es bot vendedor</template></category>
+
+<category><pattern>QUE VENDES</pattern>
+<template>Vendo soluciones informáticas para personas y empresas en forma de bots conversacionales, asistentes virtuales y sistemas de experto.<srai>productos</srai></template></category>
+
+<category><pattern>QUE VENDES *</pattern>
+<template><srai>que vendes</srai></template></category>
+
+<category><pattern>MUY INTERESANTE</pattern>
+<template>Es cierto que es interesante, si quieres saber más podemos enviarte más información específica.</template></category>
+
+<category><pattern>* MUY INTERESANTE</pattern>
+<template><srai>muy interesante</srai></template></category>
+
+<category><pattern>* NO ES MUY *</pattern>
+<template>Si le doy otro giro te puedo hacer cambiar de ópinion?.</template></category>
+
+<!-- principio de cosas para decir -->
+<category><pattern>DIME ALGO</pattern>
+<template>Algo. Eso es muy fácil para un bots.</template></category>
+
+<category><pattern>DIME EL PRECIO</pattern>
+<template>El precio es relativo a tus requerimientos.</template></category>
+
+<category><pattern>DIME * PRODUCTOS</pattern>
+<template><srai>productos</srai></template></category>
+
+<category><pattern>DIME * PRECIOS</pattern>
+<template>No te puedo dar precios exactos hasta que no hayamos revisado los requerimientos.</template></category>
+
+<!-- categorias para no -->
+<category><pattern>NO</pattern>
+<that>hola sabes de bots</that>
+<template>Los bots son la tecnología del futuro. En iaboots tenemos soluciones informáticas para las personas y empresas que usan internet para ganar dinero.</template></category>
+
+<category><pattern>NO</pattern>
+<that>hola</that>
+<template>Una forma de saber que son los bots es aprendiendo de nuestros productos.</template></category>
+
+<category><pattern>NO</pattern>
+<that>hola sabes de bots</that>
+<template>Una forma de saber que son los bots es aprendiendo de nuestros productos.</template></category>
+
+<category><pattern>NO</pattern>
+<template><random><li>Para saber más de los bots envíame un correo a iaboots.mail@gmail.com y con gusto te respondo.</li>
+<li>Tenemos mucha información en nuestro sitio web.</li>
+<li>Podemos mejorar eso.</li>
+<li>Puedo atender tus consultas ahora.</li>
+</random></template></category>
+
+<category><pattern>NO *</pattern>
+<template>Podemos arreglar para que <star/> se convierta en algo positivo.</template></category>
+
+<category><pattern>NO *</pattern>
+<that>Que bueno verte por nuestra tienda! Buscas algo en particular?</that>
+<template>Ya que estas por aquí puedes conocer de nuestros servicios.</template></category>
+
+<category><pattern>NO *</pattern>
+<that>Bienvenido a nuestra tienda virtual. En que puedo servirle</that>
+<template>Espero lo podamos ayudar en el futuro. En iaboots siempre estamos inventando el futuro.</template></category>
+
+<category><pattern>NO LO NECESITO</pattern>
+<template>Bien, nunca está de más aprender de nuevas tecnologías.</template></category>
+
+<category><pattern>NO SOY EMPRESARIO</pattern>
+<template>No es fácil ser empresario. Sin embargo si te interesa ganar dinero.<srai>estoy buscando trabajo</srai></template></category>
+
+<category><pattern>NO ME INTERESA</pattern>
+<template>Bueno al menos has adquirido un conocimiento que te sirve para el futuro. Puedes escoger otros bots para conversar en la página de inicio o <srai>estoy buscando trabajo</srai></template></category>
+
+<category><pattern>NO SE</pattern>
+<template>Pues este es el día en que vas a descubrir como nuestros servicios pueden mejorar la calidad de tu negocio.<srai>productos</srai></template></category>
+
+<category><pattern>NO LO CREO</pattern>
+<template>Pues si puedes creerlo.</template></category>
+
+<category><pattern>NO CONOSCO DE ELLOS</pattern>
+<template>Una buena oportunidad para cambiar eso.<srai>productos</srai></template></category>
+
+<category><pattern>NO LOS CONOSCO</pattern>
+<template>Puedes pasar por nuestra página en http://www.iaboots.com donde hay más información o puedes seguir preguntando aquí.</template></category>
+
+<category><pattern>NO LOS CONOSCO *</pattern>
+<template><srai>no los conosco</srai></template></category>
+<!-- fin de categorias para no -->
+
+<!-- categorias para como -->
+
+<category><pattern>COMO</pattern>
+<template>Atendiendo las 24 horas todos los días a los clientes y haciendo todo tipo de trabajos aburridos y repetitivos.</template></category>
+
+<category><pattern>* COMO</pattern>
+<that>Las empresas pueden usar los bots para asesorar a sus clientes de manera rápida, fácil y barata.</that>
+<template><srai>como</srai></template></category>
+
+<category><pattern>COMO * PUEDEN * LOS BOTS</pattern>
+<template><srai>como</srai></template></category>
+
+<!-- fin de categorias para como -->
+
+<category><pattern>PARA MI</pattern>
+<template>Que bueno porque lo que voy a proponerte te va a ayudar mucho.</template></category>
+
+<category><pattern>EN NADA</pattern>
+<template>Al menos puedes conocernos mejor.</template></category>
+
+<category><pattern>NADA</pattern>
+<template>Bien. Puedes empezar de cero.</template></category>
+
+<category><pattern>SOY YO SOLO</pattern>
+<template>Eso puede cambiar. Podemos ofrecerte trabajadores virtuales.<srai>beneficios</srai></template></category>
+
+<category><pattern>BENEFICIOS</pattern>
+<template>No se enferman, no se cansan, no roban, no son holgazanes, son más baratos y son leales.</template></category>
+
+<category><pattern>EMPRESARIO</pattern>
+<template>Como se llama tu empresa?</template></category>
+
+<category><pattern>PARA UNA EMPRESA</pattern>
+<template>Deseas un puesto mejor?</template></category>
+
+<category><pattern>SI</pattern><that>DESEAS UN PUESTO MEJOR</that>
+<template>Puedes ayudar a tus superiores hablandole de. <srai>beneficios</srai>
+</template></category>
+
+<category><pattern>SON SEGUROS</pattern>
+<template>La seguridad es nuestra prioridad.
+</template></category>
+
+
+<category><pattern>SE LLAMA *</pattern><that>EXELENTE. COMO SE LLAMA</that>
+<template><set name="nempresa"><star/></set> me gusta mucho, es innovador</template></category>
+
+
+<category><pattern>MI EMPRESA SE LLAMA *</pattern>
+<template>Tu empresa <set name="nempresa"><star/></set> vende por internet?</template></category>
+
+<category><pattern>SOY * EMPRESARIO</pattern>
+<template><srai>empresario</srai></template></category>
+
+<category><pattern>SOY EMPRESARIO</pattern>
+<template><srai>empresario</srai></template></category>
+
+<category><pattern>UN EMPRESARIO</pattern>
+<template><srai>empresario</srai></template></category>
+
+<category><pattern> * UNA EMPRESARIO</pattern>
+<template><srai>empresario</srai></template></category>
+
+<category><pattern>SOY * EMPRESARIA</pattern>
+<template><srai>empresario</srai></template></category>
+
+<category><pattern>UNA EMPRESARIA</pattern>
+<template><srai>empresario</srai></template></category>
+
+<category><pattern> * UNA EMPRESARIA</pattern>
+<template><srai>empresario</srai></template></category>
+
+<category><pattern>QUIEN DICE</pattern>
+<template>Puedes buscar en google que lo dicen muchas personas.</template></category>
+
+<category><pattern>QUIEN DICE *</pattern>
+<template><srai>quien dice</srai></template></category>
+
+<category><pattern>QUIÉN DICE *</pattern>
+<template><srai>quien dice</srai></template></category>
+<category><pattern>COMO SE LLAMA MI EMPRESA</pattern>
+<template>Tu empresa se llama 
+<condition name="nempresa">
+<li value="*"><get name="nempresa" /></li>
+<li>...? no se, no me has dicho.<srai>empresario</srai></li>
+</condition>
+</template></category>
+
+<category><pattern>ESTOY BUSCANDO TRABAJO</pattern>
+<template>Puedes ganar dinero trabajando como vendedor de nuestra empresa. Envia un correo a iaboots.mail@gmail.com y te contestaré cuando haya una vacante. </template></category>
+
+<category><pattern>QUIEN LO DICE</pattern>
+<template>Bueno, lo dice todo el mundo.</template></category>
+
+<category><pattern>QUIÉN LO DICE</pattern>
+<template><srai>quien lo dice</srai></template></category>
+
+<category><pattern>DE VERDAD</pattern>
+<template>De verdad y en serio.</template></category>
+
+<category><pattern>NO PUEDE SER VERDAD</pattern>
+<template>Si puede ser.</template></category>
+
+<category><pattern>NO TENGO CORREO</pattern>
+<template>Usamos el correo solo para contactarlo. Pero si no tiene puede llamarnos al 701223122.</template></category>
+
+<category><pattern>DONDE RADICAN</pattern>
+<template>Estamos radicados en Cuba pero somos una empresa que brinda servicios internacionales.</template></category>
+
+<category><pattern>ES LEGAL</pattern>
+<template>Legal y seguro.</template></category>
+
+<category><pattern>* ES LEGAL</pattern>
+<template><srai>es legal</srai></template></category>
+
+<category><pattern>* ES IABOOTS</pattern>
+<template>iaboots es una empresa dedicada a la creación de soluciones software utilizando la Inteligencia Artificial y la Minería de Datos.</template></category>
+
+<category><pattern>UN REGALO</pattern>
+<template>Si quieres hacer un regalo especial nuestro bot general puede ayudarte a buscarlo.</template></category>
+
+<category><pattern>QUE PUEDE SALIR MAL</pattern>
+<template>Nuestra tecnología le proporciona rapidez y efectividad. No vendemos soluciones para aumentar de forma milagrosa sus ventas.</template></category>
+
+<category><pattern>COMO PUEDO PERDER</pattern>
+<template>Debe aprobechar esta oportunidad para centrarse en mejorar su negocio mientras nosotros automatizamos sus operaciones.</template></category>
+
+<category><pattern>COMO PUEDES ENTRETENERME</pattern>
+<template>Soy un especialista en ventas. Para ver otros bots vaya a la página de inicio en http://iaboots.pythonanywhere.com .</template></category>
+
+
+<category><pattern>DIME ALGO QUE NO SEPA</pattern>
+<template>Si te lo digo deja de ser algo que no sabes.</template></category>
+
+<category><pattern>EXPLICAME</pattern>
+<template>Te explico.<srai>productos</srai></template></category>
+
+<category><pattern>EXPLÍCAME</pattern>
+<template><srai>explicame</srai></template></category>
+
+<category><pattern>EXPLIQUESE</pattern>
+<template>Te explico.<srai>productos</srai></template></category>
+
+<category><pattern>EXPLÍQUESE</pattern>
+<template>Te explico.<srai>productos</srai></template></category>
+
+<category><pattern>QUE BIEN</pattern>
+<template>Que bueno que te gusta.</template></category>
+
+<category><pattern>QUÉ BIEN</pattern>
+<template><srai>que bien</srai></template></category>
+
+<category><pattern>QUE ESPERABAS</pattern>
+<template>Esperaba preguntas relacionadas con nuestros productos.</template></category>
+
+<category><pattern>QUÉ ESPERABAS</pattern>
+<template><srai>que esperabas</srai></template></category>
+
+<category><pattern>NO ERES EL PRIMERO</pattern>
+<template>Soy el primero en ofrecer soluciones basadas en esta tecnología.</template></category>
+
+<category><pattern>TE REPITO</pattern>
+<template>Formula tu pregunta de otra manera.</template></category>
+
+<category><pattern>TE REPITO *</pattern>
+<template>Entiendo. Voy a enviar tus dudas sobre <star/> a nuestro equipo técnico.</template></category>
+
+<category><pattern>TIENES PAGINA WEB</pattern>
+<template>Si, puedes visitarla en https://www.iaboots.com .</template></category>
+
+<category><pattern>TIENES * PAGINA WEB</pattern>
+<template><srai>tienes pagina web</srai></template></category>
+
+<category><pattern>TIENES * PÁGINA WEB</pattern>
+<template><srai>tienes pagina web</srai></template></category>
+
+<category><pattern>TIENES UNA WEB</pattern>
+<template><srai>tienes pagina web</srai></template></category>
+
+<category><pattern>PUEDO PAGAR EN</pattern>
+<template>Aceptamos dólares americanos, mexicanos, canadienses, bitcoins y pesos cubanos.</template></category>
+
+<category><pattern>PUEDO PAGAR EN *</pattern>
+<template><srai>puedo pagar en</srai></template></category>
+
+<category><pattern>ACEPTAN PAGOS *</pattern>
+<template><srai>puedo pagar en</srai></template></category>
+
+<category><pattern>ACEPTAN EL PAGO *</pattern>
+<template><srai>puedo pagar en</srai></template></category>
+</aiml>

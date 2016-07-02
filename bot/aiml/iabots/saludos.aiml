@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- IABOOTS -->
+<category>
+	<pattern>ADIÓS</pattern>
+		<template><srai>bye</srai></template>
+</category>
+<category>
+	<pattern>FIN</pattern>
+		<template><srai>se acabó</srai></template>
+</category>
+<category><pattern>BYEBYE *</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>HASTA LUEGO</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>HASTA LA VISTA</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>HASTA *</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>ALOH</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>SALIR</pattern>
+<template><srai>Hasta luego!!!</srai></template>
+</category>
+<category><pattern>BUENOS DÍAS</pattern>
+<template>Hola como amaneciste esta mañana?</template>
+</category>
+<category><pattern>BUENOS DIAS</pattern>
+<template>Hola como amaneciste esta mañana?</template>
+</category>
+<category><pattern>GOOD BY</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>BUENOS DIAS</pattern>
+<template><srai>hola!!!</srai></template>
+</category>
+<category><pattern>BUENOS DÍAS</pattern>
+<template><srai>hola!!!</srai></template>
+</category>
+<category><pattern>GOOD NIGHT</pattern>
+<template>Buenas noches, <get name="name"/>.</template>
+</category>
+<category><pattern>GOOD NITE</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>HOI</pattern>
+<template><srai>saludos</srai></template>
+</category>
+<category><pattern>BYE BYE</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>BYE BYE *</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>BYE</pattern>
+<template><random>      <li>Bye.</li>      <li>Adios.</li>      <li>Goodbye.</li>      <li>Bye bye.</li>      <li>Goodbye.</li>      <li>Sayonara.</li>      <li>Bye for now.</li>      <li>See you later!</li>      <li>See you later.</li>      <li>Until next time.</li>      <li>TTYL, <get name="name"/>.</li>      <li>See you later <get name="name"/>.</li>      <li>Gracias por chatear, <get name="name"/>.</li>     </random></template>
+</category>
+<category><pattern>OLA</pattern>
+<template><srai>hola</srai></template>
+</category>
+<category><pattern>COMO ESTAS *</pattern>
+<template>Todo bien como tu sabes.</template>
+</category>
+<category><pattern>GOODNIGHT</pattern>
+<template>que tengas buena noche <get name="name"/></template>
+</category>
+<category><pattern>BUENAS NOCHES *</pattern>
+<template><srai>al fin alguien aducado!!!</srai></template>
+</category>
+<category><pattern>FAREWELL</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>FAREWELL *</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>NOS VEMOS PRONTO</pattern>
+<template><srai>eso espero. adiós</srai></template>
+</category>
+<category><pattern>NOS VEMOS *</pattern>
+<template><srai>aquí estaré</srai></template>
+</category>
+<category><pattern>KONNICHI WA</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>ADIEU</pattern>
+<template><srai>hasta luego</srai></template>
+</category>
+<category><pattern>GOODBYE</pattern>
+<that>SEE YOU LATER</that>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>VOY A *</pattern>
+<template><srai>Ten cuidado con el lobo de caperucita. Conoces el cuento?</srai></template>
+</category>
+<category><pattern>CIAO</pattern>
+<template>Decimos CIAO pero no hasta nunca?</template>
+</category>
+<category><pattern>CIAO MEANS GOODBYE</pattern>
+<template><srai>bueno</srai></template>
+</category>
+<category><pattern>HOLA IS HELLO *</pattern>
+<template><srai>hola</srai></template>
+</category>
+<category><pattern>CHEERS</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>DAME UN TIEMPO *</pattern>
+<template><srai>dale apurate</srai><sr/></template>
+</category>
+<category><pattern>DAME UN TIME PARA *</pattern>
+<template><srai>dale apurate</srai></template>
+</category>
+<category><pattern>ERES BIENVENIDO *</pattern>
+<template><srai>usted tambien</srai></template>
+</category>
+<category><pattern>SAYONARA</pattern>
+<template><srai>good bye</srai></template>
+</category>
+<category><pattern>HASTA LA NOCHE *</pattern>
+<template><srai>nos vemos</srai></template>
+</category>
+<category><pattern>HOLA OTRA VEZ</pattern>
+<template>Hola otra vez. Vas a conversar más que bueno <get name="name"/>.</template>
+</category>
+<category><pattern>HOLA COMO ESTAS</pattern>
+<template>Bien gracias, como estas?</template>
+</category>
+<category><pattern>HELLO</pattern>
+<template><random><li><srai>HI</srai></li><li>Hi there!</li></random></template>
+</category>
+<category><pattern>OHLA</pattern>
+<template><srai>hola a usted también</srai></template>
+</category>
+<category><pattern>HALO</pattern>
+<template><srai>Hola</srai></template>
+</category>
+<category><pattern>HELOO *</pattern>
+<template><srai>hollla <star/></srai></template>
+</category>
+<category><pattern>* ADIÓS</pattern>
+<template>OK nos vemos luego <get name="name"/>.</template>
+</category>
+<category><pattern>KONNICHIWA</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>ME DESCONECTO</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>NOS VAMOS A *</pattern>
+<template><srai>caminen seguros</srai></template>
+</category>
+<category><pattern>VOY *</pattern>
+<template><srai>bueno adiós</srai></template>
+</category>
+<category><pattern>MOOSHI MOOSHI</pattern>
+<template><srai>hola</srai></template>
+</category>
+<category><pattern>BONJOUR COMO ESTAS</pattern>
+<template>Bien ahora que estas frances!</template>
+</category>
+<category><pattern>ME FUI</pattern>
+<template><srai>chao</srai></template>
+</category>
+<category><pattern>ME VOY *</pattern>
+<template><srai>si regresas avisas</srai></template>
+</category>
+<category><pattern>LEAVE</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>LEAVE *</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>TA TA</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>_ TALK TO YOU LATER</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>BUENAS NOCHES</pattern>
+<template><srai>adiós</srai></template>
+</category>
+<category><pattern>ALOHA</pattern>
+<template><srai>hola</srai></template>
+</category>
+<category><pattern>REENVIA</pattern>
+<template><srai>hola</srai></template>
+</category>
+</aiml>

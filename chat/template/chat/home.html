@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IABOOTS CHAT CONOCEME</title>
+	<meta charset="utf-8" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	   <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <!-- Bootstrap -->
+    <link href="{{STATIC_URL}}css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+	<link href="{{STATIC_URL}}css/style.css" rel="stylesheet" />
+  </head>
+<body>
+	<div class="container">
+	 <div class="page-header">
+		<p><h1 align="center">BIENVENID@S A IABOOTS</h1></p>
+		<p><h3 align="center">P&aacute;gina de bots conversacionales</h3></p>
+     </div>
+	<div class="col-md-6">
+		<form action="/interact" method="GET" >
+		<!-- Inicio de la opcion escoger bot -->
+		<h3>Escoja el bot:</h3>
+			<div class="panel-heading">
+				<select class="form-control" name="numbot">
+					<option value=1>Amigo Virtual</option>
+					<option value=2>Vendedor Eficiente</option>
+					<option value=3>Asistencia T&eacute;cnica</option>
+					
+				</select>
+			</div>
+		<!-- fin de escoger bot -->
+		
+		<h3>Entre su nombre y escoja su avatar:</h3>
+		<div class="input-group">
+			
+			<input  class="form-control" style="heigth=30px;" type="text" name="n" placeholder="Invitado"/>
+			<span class="input-group-btn">
+				<input class="btn btn-primary" type=submit value="INICIAR"/>
+			</span>
+		</div>
+			</br>
+		<!-- aqui iba el fin del form--->
+		<hr>
+		<div align="right">
+		<h4>
+		<p>Libre de publicidad</p></h4>
+			<p>Encuentre todo sobre nosotros en nuestro
+			<a href="www.iaboots.com">Sitio oficial</a></p>
+			<p  align="right">S&iacute;guenos en twitter: @iabots_twitt</p><hr>
+				<p><h4>Pr&oacute;ximas caracter&iacute;sticas</h4></p>	
+				<p>1. Hacer chistes.</p>	
+				<p>2. Res&uacute;menes y estad&iacute;sticas de textos.</p>	
+				<p>3. Capacidad de aprender.</p>	
+			</div>
+		</div>
+	<div class="col-md-3">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+               AVATARES DISPONIBLES
+            </div>
+            <div class="panel-body">
+                <ul class="media-list">
+				<!-- valor predefinido, no se decirlo en ingles jajaj -->
+				<li class="media">
+					<div class="media-body">
+						<div class="media">
+							<div class="media-body" >
+								<input type="radio" name="img_avatar" value=6 checked>
+							   <img src="{{STATIC_URL}}img/user/avatar6.png" alt="User Avatar" height=55 width=55 />
+							</div>
+						</div>
+
+					</div>
+				</li>
+			{% for i in rang %}
+				<li class="media">
+						<div class="media-body">
+							<div class="media">
+								<div class="media-body" >
+									<input type="radio" name="img_avatar" value={{i}}>
+								   <img src="{{STATIC_URL}}img/user/avatar{{i}}.png" alt="User Avatar" height=55 width=55 />
+								</div>
+							</div>
+
+						</div>
+					</li>	
+			{% endfor %}
+            </ul>
+                </div>
+				 </form> 
+            </div>
+    </div>
+</div>
+	
+</body>
+</html>

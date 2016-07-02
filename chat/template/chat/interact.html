@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	
+    <title>IABOOTS CHAT CONOCEME</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+	 <link href="{{STATIC_URL}}css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="{{STATIC_URL}}css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="{{STATIC_URL}}js/msg.js"></script>
+</head>
+<body>
+<div class="container">
+	<h3 class="text-center">IABOOTS CHAT CONOCEME</h3></BR>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    CHATEA CON NUESTRO BOT
+                </div>
+                <div class="panel-body" id="panel_body">
+                     <ul class="chat" id ="chat">  <!--chat send to js for new message  -->
+				<!-- Here start the first message yoa -->
+						<li class="left clearfix">
+							<span class="chat-img pull-left">
+								<img src="{{STATIC_URL}}img/user/iabots.jpg" alt="User Avatar" class="img-circle" />
+							</span>
+								<div class="chat-body clearfix">
+									<div class="header">
+										<strong class="primary-font"></strong>
+											<b>{{ nombbot }}</b>
+										<small class="pull-right text-muted">
+											Conversaci&oacute;n iniciada: {{ session.start_date }}
+											</small>
+									</div>
+									<div class="media-body">
+										<p>Hola {{ session.user_name}}!!!</p>
+									</div>
+								</div>
+					   </li>
+					   <!-- end message yoa -->
+                    </ul>
+                </div>
+				<!-- end the message yoa -->
+				<!-- Here start the form to input the text yoa-->
+			<form method="GET" onSubmit="return ask('textin', 'chat', '{{ session.user_name}}', {{ session.user_avatar }}, '{{nombbot}}', '{{numbot}}' );" >
+                <div class="panel-footer">
+                    <div class="input-group">
+						<input id="textin" type="text" class="form-control"  name="input" autocomplete="off"placeholder="Escriba aqu&iacute;." />
+                       <span class="input-group-btn">
+								<input id="btn" type=submit value="ENTRAR" class="btn btn-primary" />
+                        </span>
+                    </div>
+                </div>
+			</form>
+					<!-- end form yoa -->
+            </div>
+		<!-- Here start the panel to the user history yoa	 -->
+        </div>
+		  <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+               &Uacute;LTIMOS {{total}} DE {{numero}}
+            </div>
+            <div class="panel-body">
+                <ul class="media-list">
+				{% for item in user_list reversed%}
+                     <li class="media">
+						<div class="media-body">
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object img-circle" style="max-height:40px;" src="{{STATIC_URL}}img/user/avatar{{item.user_avatar}}.png" />
+								</a>
+								<div class="media-body" >
+									<h5>{{ item.user_name }}</h5>
+								   <small class="text-muted">{{ item.start_date }}</small>
+								</div>
+							</div>
+						</div>
+					</li>
+				{% endfor %}                  
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

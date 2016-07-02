@@ -1,0 +1,21 @@
+<aiml version="1.0">
+
+<!-- IABOOTS -->
+<category>
+<pattern>LOAD IABOTS</pattern>
+<template>
+
+
+<learn>bot/aiml/iabots/iaBoots0.aiml</learn>
+<learn>bot/aiml/iabots/iaBoots1.aiml</learn>
+<learn>bot/aiml/iabots/iaBoots2.aiml</learn>
+<learn>bot/aiml/iabots/numeros.aiml</learn>
+<learn>bot/aiml/iabots/nombres.aiml</learn>
+<learn>bot/aiml/iabots/default.aiml</learn>
+<learn>bot/aiml/iabots/saludos.aiml</learn>
+<learn>bot/aiml/iabots/cerebro.aiml</learn>
+
+
+</template>
+</category>
+</aiml>

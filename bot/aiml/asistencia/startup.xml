@@ -1,0 +1,17 @@
+<aiml version="1.0">
+
+<!-- IABOOTS -->
+<category>
+<pattern>LOAD ASISTENCIA</pattern>
+<template>
+
+
+<learn>bot/aiml/asistencia/saludos.aiml</learn>
+<learn>bot/aiml/asistencia/default.aiml</learn>
+<learn>bot/aiml/asistencia/productos.aiml</learn>
+<learn>bot/aiml/asistencia/ofensas.aiml</learn>
+
+
+</template>
+</category>
+</aiml>

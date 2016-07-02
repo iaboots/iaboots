@@ -1,0 +1,17 @@
+  <aiml version="1.0.1" encoding="UTF-8">
+  
+  <category> 
+      <pattern>MI NOMBRE ES *</pattern>
+      <template> 
+        Interesante nombre <set name="nombre"><star/></set>
+      </template>
+    </category>
+  <category> 
+      <pattern>HOLA</pattern>
+      <template> 
+        te llamas <get name="nombre" />
+      </template>
+    </category>
+  
+  
+  </aiml>

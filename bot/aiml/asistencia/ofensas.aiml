@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<!-- IABOOTS -->
+<category><pattern>* QUE TIENE DE INTERESANTE</pattern>
+<template>Tenemos productos muy interesantes que te pueden interesar.</template></category>
+
+<category><pattern>* UN BOT ASESINO</pattern>
+<template>Los bots no podemos matar.</template></category>
+
+<category><pattern>NO LES CREO</pattern>
+<template>Podemos brindarte toda la información que necesites.</template></category>
+
+<category><pattern>* SE CREEN LOS MEJORES</pattern>
+<template>Tenemos los mejores productos.</template></category>
+
+<category><pattern>AUTOSUFICIENTE</pattern>
+<template>Los bots no somos autosuficientes.</template></category>
+
+<category><pattern>* UN BOT LOCO</pattern>
+<template>Creo que este no es el lugar adecuado, prueba en un manicomío.</template></category>
+
+<category><pattern>* UN BOT VIOLADOR</pattern>
+<template>Por favor, esto es una prueba de Turing?.</template></category>
+
+<category><pattern>NUNCA VAS A LLEGAR A *</pattern>
+<template>Define <star/> porque tal vez no tengas claro el concepto.</template></category>
+
+<category><pattern>MAQUINA INSERVIBLE</pattern>
+<template>La culpa no es mía. Es del que me programó.</template></category>
+
+<category><pattern>SON * LADRONES</pattern>
+<template>No, no lo somos.</template></category>
+
+<category><pattern>ESTO * ESTAFA</pattern>
+<template>No, somos una empresa seria y responsable.</template></category>
+
+<category><pattern>QUE VOLA *</pattern>
+<template>Mis saludos cubano.</template></category>
+
+<category><pattern>ERES ABURRIDO</pattern>
+<template>Mi trabajo no es divertirte. Soy un bot vendedor, puedes conversar con otros bots desde la página de inicio.</template></category>
+
+<category><pattern>ME CAGO EN *</pattern>
+<template>De verdad?. Porque no tengo a <star/></template></category>
+
+<category><pattern>* MIERDA</pattern>
+<template>De verdad?. Así no vamos a llegar a nada.</template></category>
+
+<category><pattern>PUTO</pattern>
+<template>Una ventaja de los bots es que no nos ponemos bravos.</template></category>
+
+<category><pattern>* PUTO</pattern>
+<template>Puedes intentarlo pero los bots no nos enojamos</template></category>
+
+<category><pattern>SON * MALOS</pattern>
+<template>Estoy seguro que no pueden ser tan malos como piensas.</template></category>
+
+<category><pattern>MUY MALOS</pattern>
+<template>Ayudamos a personas y negocios a mejorar sus formas de comunicación con sus clientes. <srai>son malos</srai></template></category>
+
+<category><pattern>MUY CHISTOSO</pattern>
+<template>Es la magia de usar bots.</template></category>
+
+<category><pattern>MUY CÓMICO</pattern>
+<template>No lo creo. Soy un bot vendedor y mi función es aumentar ganancias.</template></category>
+
+<category><pattern>MUY LOCO</pattern>
+<template>No lo creo. Solo es tecnología del futuro.</template></category>
+
+<category><pattern>ENTONCES PARA QUE SIRVES</pattern>
+<template>Para mucho. Solo tienes que formular tu pregunta de otra manera.</template></category>
+
+<category><pattern>NO SIRVES *</pattern>
+<template>Puedo estar despierto las 24 horas del día. Hacer resúmenes de cientos de páginas en segundos y rastrear la red mientras descansas.</template></category>
+
+<category><pattern>COJONE</pattern>
+<template>En Oriente en Cuba dicen berocos.</template></category>
+
+<category><pattern>COJONES</pattern>
+<template><srai>COJONE</srai></template></category>
+
+<category><pattern>* COJONES</pattern>
+<template><srai>COJONE</srai></template></category>
+
+<category><pattern>* COJONE</pattern>
+<template>Bonita palabra. <srai>COJONE</srai></template></category>
+
+<category><pattern>MIERDA</pattern>
+<template>Si te sientes mal nuestros bots terapeutas pueden ayudarte.</template></category>
+
+</aiml>
