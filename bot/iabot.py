@@ -19,15 +19,15 @@ Actualización: 22-05-2016
 import aiml
 
 n = aiml.Kernel()
-n.learn("bot/aiml/iabots/startup.xml")
+n.learn("iaboots/bot/aiml/iabots/startup.xml")
 n.respond("LOAD IABOTS")
 
 v = aiml.Kernel()
-v.learn("bot/aiml/vendedor/startup.xml")
+v.learn("iaboots/bot/aiml/vendedor/startup.xml")
 v.respond("LOAD VENDEDOR")
 
 a = aiml.Kernel()
-a.learn("bot/aiml/asistencia/startup.xml")
+a.learn("iaboots/bot/aiml/asistencia/startup.xml")
 a.respond("LOAD ASISTENCIA")
 
 class iabot:

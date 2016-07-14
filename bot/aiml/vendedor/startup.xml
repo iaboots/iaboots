@@ -6,10 +6,10 @@
 <template>
 
 
-<learn>bot/aiml/vendedor/saludos.aiml</learn>
-<learn>bot/aiml/vendedor/default.aiml</learn>
-<learn>bot/aiml/vendedor/productos.aiml</learn>
-<learn>bot/aiml/vendedor/ofensas.aiml</learn>
+<learn>iaboots/bot/aiml/vendedor/saludos.aiml</learn>
+<learn>iaboots/bot/aiml/vendedor/default.aiml</learn>
+<learn>iaboots/bot/aiml/vendedor/productos.aiml</learn>
+<learn>iaboots/bot/aiml/vendedor/ofensas.aiml</learn>
 
 
 </template>

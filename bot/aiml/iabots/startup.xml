@@ -5,15 +5,14 @@
 <pattern>LOAD IABOTS</pattern>
 <template>
 
-
-<learn>bot/aiml/iabots/iaBoots0.aiml</learn>
-<learn>bot/aiml/iabots/iaBoots1.aiml</learn>
-<learn>bot/aiml/iabots/iaBoots2.aiml</learn>
-<learn>bot/aiml/iabots/numeros.aiml</learn>
-<learn>bot/aiml/iabots/nombres.aiml</learn>
-<learn>bot/aiml/iabots/default.aiml</learn>
-<learn>bot/aiml/iabots/saludos.aiml</learn>
-<learn>bot/aiml/iabots/cerebro.aiml</learn>
+<learn>iabots/iaboots/bot/aiml/iabots/iaBoots0.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/iaBoots1.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/iaBoots2.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/numeros.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/nombres.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/default.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/saludos.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/cerebro.aiml</learn>
 
 
 </template>
