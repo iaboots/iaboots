@@ -64,7 +64,7 @@ STATIC_ROOT = 'iaboots/chat/static'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = 'iaboots/chat/static/'
+STATIC_URL = '/home/iabots/iaboots/chat/static/'
 
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
