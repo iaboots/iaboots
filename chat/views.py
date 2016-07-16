@@ -23,8 +23,9 @@ def home(request):
     return render_to_response('chat/home.html', { "rang" : range(6)}, context_instance=RequestContext(request))
 
 def interact(request):
-	usuario = "Invitado"
 	usuario = str(request.GET['n'])
+	if usuario is '':
+		usuario = "Invitado"
 	numbot = int(request.GET['numbot'])
 	nombbot = "bot normal"
 	if numbot is 2:
