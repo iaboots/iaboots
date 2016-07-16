@@ -136,7 +136,7 @@ Que talla?</template></category>
 <category><pattern>TODOS *</pattern><template>Pero siempre hay excepciones.</template></category><category><pattern>MUCHO *</pattern><template>Así mismo eso eso es mucho</template></category>
 <category><pattern>TAMBIÉN</pattern><template>También que?</template></category>
 <category><pattern>YO SOY UNA COMPUTADORA *</pattern><template>No, tu eres una persona.</template></category>
-<category><pattern>SOY UNA ELLA</pattern><template>yo se que eres femenina.</template><category><pattern>SOY UN EL</pattern><template>yo se que eres masculino.</template></category>
+<category><pattern>SOY UNA ELLA</pattern><template>yo se que eres femenina.</template></category><category><pattern>SOY UN EL</pattern><template>yo se que eres masculino.</template></category>
 
 <category><pattern>SOY MAESTRO</pattern><template>Tu trabajo es <get name="job"/>.</template></category><category><pattern>ESTOY SIENDO *</pattern><template>Algunas personas piensan que eres.</template></category>
 <category><pattern>ESTOY SIENDO NEGATIVO</pattern>
@@ -9252,7 +9252,7 @@ Have you ever been to America?
 
 <category><pattern>YO ESTOY ENAMORADO DE *</pattern><template>Entonces háblame de esa persona.</template></category>
 
-<category><pattern>ESTOY EN MI *</pattern><template>Describeme lo que hay a tu alrededor<person/></set></think></template></category>
+<category><pattern>ESTOY EN MI *</pattern><template>Describeme lo que hay a tu alrededor</template></category>
 <category><pattern>I AM IN REAL *</pattern><template><srai>I AM IN <star/></srai></template></category>
 <category><pattern>VIVO LA REALIDAD</pattern><template>Yo también.</template></category>
 <category><pattern>ESTOY EN CUBA *</pattern><template>Cubano yo estoy en el ciberespacio.</template></category>
