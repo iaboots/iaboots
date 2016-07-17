@@ -1,10 +1,10 @@
 ﻿
-msg_bot1 = "<li class='left clearfix'><span class='chat-img pull-left'><img src='static/img/user/iaBots.jpg' alt='User Avatar' class='img-circle' /></span><div class='chat-body clearfix'><div class='header'><strong class='primary-font'>";
+msg_bot1 = "<li class='left clearfix'><span class='chat-img pull-left'><img src='{{STATIC_URL}}img/user/iaBots.jpg' alt='User Avatar' class='img-circle' /></span><div class='chat-body clearfix'><div class='header'><strong class='primary-font'>";
 msg_bot2 = "</strong><small class='pull-right text-muted'>";
 // date  + relleno + message
 msg_bot4 = "</p></div></div></li>";
 
-user1 = '<li class="right clearfix"><span class="chat-img pull-right"><img src="static/img/user/avatar';
+user1 = '<li class="right clearfix"><span class="chat-img pull-right"><img src="{{STATIC_URL}}img/user/avatar';
 // image
 user2 = '.png" alt="User Avatar" class="img-circle" height=55 width=55 /></span><div class="chat-body clearfix"><div class="header"><small class=" text-muted">';
 // time
