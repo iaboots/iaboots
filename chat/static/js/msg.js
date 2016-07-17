@@ -1,5 +1,5 @@
 ﻿
-msg_bot1 = "<li class='left clearfix'><span class='chat-img pull-left'><img src='{{STATIC_URL}}img/user/iaBots.jpg' alt='User Avatar' class='img-circle' /></span><div class='chat-body clearfix'><div class='header'><strong class='primary-font'>";
+msg_bot1 = "<li class='left clearfix'><span class='chat-img pull-left'><img src='{{STATIC_URL}}img/user/iaBots.jpg' alt='Bot Avatar' class='img-circle' /></span><div class='chat-body clearfix'><div class='header'><strong class='primary-font'>";
 msg_bot2 = "</strong><small class='pull-right text-muted'>";
 // date  + relleno + message
 msg_bot4 = "</p></div></div></li>";
