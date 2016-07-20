@@ -6,12 +6,14 @@
 <template>
 
 <learn>iabots/iaboots/bot/aiml/iabots/iaBoots0.aiml</learn>
-<learn>iaboots/bot/aiml/iabots/iaBoots1.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/iaBoots0.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/iaBoots2.aiml</learn>
 <learn>iaboots/bot/aiml/iabots/iaBoots2.aiml</learn>
 <learn>iaboots/bot/aiml/iabots/numeros.aiml</learn>
 <learn>iaboots/bot/aiml/iabots/nombres.aiml</learn>
 <learn>iaboots/bot/aiml/iabots/default.aiml</learn>
 <learn>iaboots/bot/aiml/iabots/saludos.aiml</learn>
+<learn>iaboots/bot/aiml/iabots/colores.aiml</learn>
 <learn>iaboots/bot/aiml/iabots/cerebro.aiml</learn>
 
 

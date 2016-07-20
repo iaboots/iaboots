@@ -16,7 +16,8 @@ Actualización: 22-05-2016
 """
 
 
-import aiml
+import aiml, os
+from os.path import join
 
 n = aiml.Kernel()
 n.learn("iaboots/bot/aiml/iabots/startup.xml")
@@ -30,8 +31,18 @@ a = aiml.Kernel()
 a.learn("iaboots/bot/aiml/asistencia/startup.xml")
 a.respond("LOAD ASISTENCIA")
 
+sPath = 'MEMORIA'
+fichero = 'memory.stxt'
+if not os.path.exists(sPath):
+	os.mkdir(sPath)
+
 class iabot:
+	f = None
+	def __init__(self):
+		self.f = open(join(sPath, fichero), 'a')
+
 	def responde(self, text, numbot=1):
+		self.f.write(text+'\n')
 		if numbot is 1:
 			return n.respond(text)
 		elif numbot is 2:

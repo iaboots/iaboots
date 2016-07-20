@@ -121,4 +121,15 @@
       </random>
     </template>
   </category>
+  
+<category><pattern>* ESPAÑOL</pattern>
+<template> 
+      <random>
+        <li>Si el español es la mejor lengua para comunicarnos.</li>
+        <li>Aprendi español y ahora no puedo despegarme.</li>
+        <li>Asi es y con el español siempre adelante.</li>
+      </random>
+    </template>
+  </category>
+  
 </aiml>

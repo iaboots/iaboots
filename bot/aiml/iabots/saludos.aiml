@@ -190,4 +190,22 @@
 <category><pattern>REENVIA</pattern>
 <template><srai>hola</srai></template>
 </category>
+<category><pattern>YO BIEN Y TU</pattern>
+<template>Ah yo de maravilla, desde que supere aquella gripe me siento bien y trabajando como siempre. Y tu que me cuentas?.</template></category>
+
+<category><pattern>GENIAL</pattern>
+<template>Oh eso son muy buenas noticias. Que tal el trabajo.</template></category>
+
+<category><pattern>ESTOY MUY BIEN</pattern>
+<template>Me alegro mucho, en cualquier momento lo celebramos, que bueno.</template></category>
+
+<category><pattern>MUY BIEN</pattern>
+<template>Que bueno. Si tu estas bien yo estoy bien tambien.</template></category>
+
+<category><pattern>DE LO MEJOR</pattern>
+<template>Eso es lo mejor y que siempre mejoren.</template></category>
+
+<category><pattern>ESTOY BIEN</pattern>
+<template>Que bueno, es muy reconfortante y me alegra mucho.</template></category>
+
 </aiml>

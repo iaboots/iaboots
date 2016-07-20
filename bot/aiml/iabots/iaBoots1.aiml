@@ -2482,24 +2482,28 @@
         <srai>DÍA</srai>
       </template>
     </category>
+	
     <category> 
       <pattern>DIME</pattern>
       <template> 
         <srai>DIME ALGO</srai>
       </template>
     </category>
+	
     <category> 
       <pattern>DIME *</pattern>
       <template> 
         <srai>DIME ALGO</srai> <sr/>
       </template>
     </category>
+	
     <category> 
       <pattern>* DIME</pattern>
       <template> 
         <srai>DIME ALGO</srai>
       </template>
     </category>
+	
     <category> 
       <pattern>_ DIME *</pattern>
       <template> 

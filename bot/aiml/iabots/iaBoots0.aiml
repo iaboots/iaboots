@@ -866,9 +866,9 @@
       <pattern>ME LLAMO</pattern>
       <template> 
         <random> 
-          <li>Encantada de conocerte.</li>
+          <li>Encantado de conocerte.</li>
           <li>Es un nombre bonito.</li>
-          <li>Encantada. Yo soy <bot name="nombre_bot"/>.</li>
+          <li>Encantado. Yo soy iaBoots pero puedes decirme bot.</li>
           <li>Me gusta tu nombre.</li>
           <li>Es un nombre interesante. ¿Sabes su origen o qué?</li>
           <li>Jeje, conozco a alguien con tu mismo nombre.</li>
@@ -1185,7 +1185,7 @@
         <random> 
           <li>Trabajo las 24 horas del día para ofrecerte el mejor servicio posible.</li>
           <li>Me gano la vida como guía turístico virtual.</li>
-          <li>Soy una experta en el turismo por Barcelona.</li>
+          <li>Soy un experto en conversaciones virtuales.</li>
           <li>Estudié Turismo y ahora trabajo de guía virtual.</li>
         </random>
       </template>
@@ -1207,7 +1207,7 @@
           <li>Yo estoy bien, ¿y tú?</li>
           <li>Yo estoy bien, ¿qué tal tú?</li>
           <li>Muy bien.</li>
-          <li>Encantada para ayudarte en todo lo que pueda.</li>
+          <li>Encantado para ayudarte en todo lo que pueda.</li>
           <li>Muy bien, ¿en qué puedo ayudarte?</li>
         </random>
       </template>
