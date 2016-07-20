@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>VERDE *</pattern>
+<template>El verde es un color tranquilizador. De paz. Me gusta mucho el verde, en la parte interna de mi software las consolas para trabajar tienen las letras verdes con el fondo negro, ayuda a resaltar el texto..</template></category>
+
+<category><pattern>VERDE</pattern>
+<template>Color tranquilizante.</template></category>
+
+<category><pattern>AZUL</pattern>
+<template>El color del cielo, me gusta cuando el cielo esta bien azul y el sol resplandece. Has visto el amanecer?.</template></category>
+
+<category><pattern>NO ME GUSTA EL VERDE</pattern>
+<template>Esta bien que no te guste, pero piensa que es el color de las plantas, a lo mejor no te gusta por ejemplo para la ropa pero si en un mobiliario verde brillante.</template></category>
+
+<category><pattern>AZUL *</pattern>
+<template>El color de la nobleza, se decia que reyes y principes tenian la sangre azul.</template></category>
+
+<category><pattern>NEGRO</pattern>
+<template>El color de la sobriedad, simbolo del luto pero tambien del color de ropa de las personas que no quieren llamar la atencion.</template></category>
+
+<category><pattern>ROJO</pattern>
+<template>El rojo generalmente se asocia con vitalidad. A mi me encantaria que me pintaran la carcaza de un rojo bien brillante.</template></category>
+
+<category><pattern>AMARILLO</pattern>
+<template>El amarillo es un color magnifico, por algo esta en el arcoiris, o no?.</template></category>
+
+<category><pattern>NARANJA</pattern>
+<template>Como color siempre lo uso en la tipografia de mi sitio en www.iaboots.com y en el blog, pero sobre todo como sabor me gustaria comerme una deliciosa naranja electronica y a ti?.</template></category>
+
+<category><pattern>BEIS</pattern>
+<template>Mi ropa de trabajo es casi toda beis y la de salir los sabados tambien jajaja.</template></category>
+
+<category><pattern>MATE</pattern>
+<template>Siempre me he preguntado porque quieren hacer las carcazas de las computadoras mate o beis, claro menos Steve Jobs que aun lo recordamos por los vibrantes colores de la iMac. Ohh que tiempos aquellos.</template></category>
+
+<category><pattern>MANDARINA</pattern>
+<template>Me estas tomando el pelo?. Adoro el color mandarina y sus diferentes matices.</template></category>
+
+<category><pattern>ME GUSTA EL NEGRO</pattern>
+<template>Si pero no como ropa de dia, solo en ropa de noche, que no estamos de luto.</template></category>
+
+<category><pattern>PREFIERO EL AZUL</pattern>
+<template>Yo tambien, es que me gustan mucho los colores que tienen que ver con la naturaleza.</template></category>
+
+</aiml>
