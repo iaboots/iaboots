@@ -8,17 +8,17 @@
 <li><star/>. Bueno si me das tu correo te envio la documentación.</li>
 <li>Tenemos todo muy bien detallado.</li>
 <li><star/> no es lo que esperaba. Eres un trabajador o un empresario?</li>
-<li>Las empresas pueden usar los bots para trabajo repetitivo de manera fácil y barata.</li>
+<li>Las empresas pueden usar los bots para trabajo repetitivo de manera fácil y barata, aumentar su presencia en internet y mejorar la asistencia a los clientes.</li>
 <li>Te imaginas tener un bot femenino como secretaria?.</li>
-<li>Los bots son el futuro.</li>
+<li>Los bots son tecnología de hoy, que cambian el concepto de comunicación que conocemos hasta ahora y pasa a ser bidireccional. La respalda 10 000 años de socialización humana.</li>
 <li>A todos nos gustan los bots conversacionales.</li>
-<li>Tenemos los mejores bots.</li>
+<li>Tenemos los mejores bots en español.</li>
 <li>Invierte el tiempo en actividades creativas y deja el trabajo pesado a los bots.</li>
 <li>Los bots no se cansan, no se aburren, no se enferman y son baratos.</li>
 <li>Qué quieres saber sobre nuestros productos?</li>
-<li>Debes conocernos, somos los primeros en la industria de los bots.</li>
-<li>Existen algunos bots pero nadie tiene nuestros productos.</li>
-<li>Esto es solo un prototipo.</li>
+<li>Debes conocernos, somos los primeros en la industria de los bots en español.</li>
+<li>Existen algunos bots en inglés pero nadie tiene nuestros productos en español.</li>
+<li>Esto es solo un prototipo, cada cliente tiene un modelo personalizado.</li>
 </random></template></category>
 
 <!-- personalidad del bot vendedor -->
@@ -27,7 +27,10 @@
 <template>Soy un bot conversacional programado para ser un experto vendedor.</template></category>
 
 <category><pattern>QUIEN ERES *</pattern>
-<template><srai>quien eres</srai></template></category>
+<template><srai>quién eres</srai></template></category>
+
+<category><pattern>QUIEN ERES</pattern>
+<template><srai>quién eres</srai></template></category>
 
 <category><pattern>* ES TU NOMBRE</pattern>
 <template>Mi nombre es bot Sistema de Atención al Cliente.</template></category>

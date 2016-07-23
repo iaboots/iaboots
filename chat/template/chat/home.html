@@ -10,18 +10,21 @@
     <!-- Bootstrap -->
     <link href="{{STATIC_URL}}css/bootstrap.min.css" rel="stylesheet" media="screen"/>
 	<link href="{{STATIC_URL}}css/style.css" rel="stylesheet" />
+	<style type="text/css">
+	.panel-body .media-body {margin: 2px 1px 2px 2px; padding: 0 2px 0 3px; width: 200px; }
+	</style>
   </head>
 <body>
 	<div class="container" align="center">
 	 <div class="page-header">
 		<p><h1 align="center">BIENVENIDO A <img src="{{STATIC_URL}}img/home/iabots.png" height="100px" width="140px"></h1></p>
 		
-		<p><h3 align="center">"Nuestra filosof&iacute;a es que las personas responden mejor a las conversaciones, por eso ponemos todo en el chat y usamos el chat para todo'"</h3></p>
+		<p><h3 align="center">"Nuestra filosof&iacute;a es lograrlo todo a trav&eacute;s de una conversaci&oacute;n"</h3></p>
      </div>
 	<div class="col-md-7">
 		<form action="/interact" method="GET" >
 		<!-- Inicio de la opcion escoger bot -->
-		<h3>Escoje un bot:</h3>
+		<h3>Escoja un bot:</h3>
 			<div class="panel-heading">
 				<select class="form-control" name="numbot">
 					<option value=1>Amigo Virtual</option>
@@ -32,7 +35,7 @@
 			</div>
 		<!-- fin de escoger bot -->
 		
-		<h3>Entre su nombre y escoja un avatar:</h3>
+		<h3>Entre su nombre y marque un avatar:</h3>
 		<div class="input-group">
 			
 			<input  class="form-control" style="heigth=30px;" type="text" name="n" placeholder="Invitado"/>
@@ -46,7 +49,7 @@
 		<div align="right">
 		<h4>
 		<p>Libre de publicidad</p></h4>
-			<p>Encuentre todo sobre nosotros en nuestro
+			<p>Encuentre m&aacute;s informaci&oacute;n en nuestro sitio web
 			<a href="www.iaboots.com">Sitio oficial</a></p>
 			<p  align="right">S&iacute;guenos en twitter: <b>@iabots_twitt</b></p><hr>
 			</div>
@@ -57,42 +60,65 @@
                AVATARES DISPONIBLES
             </div>
             <div class="panel-body">
-                <ul class="media-list">
+                <!-- <ul class="media-list"> -->
 				<!-- valor predefinido -->
-				<li class="media">
+				<table>
+					<tr>
+						<th>
+						<div class="media-body">
+						<input type="radio" name="img_avatar" value=6 checked>
+						<img src="/static/img/user/avatar6.png" alt="User Avatar 1" height=55 width=55 />
+						</div>
+						</th>
+						<th>
+						<div class="media-body">
+						<input type="radio" name="img_avatar" value=2>
+						<img src="/static/img/user/avatar0.png" alt="Avatar 2" height=55 width=55 />
+						</div>
+						</th>
+					</tr>
+				
+				<!-- <li class="media">
 					<div class="media-body">
 						<input type="radio" name="img_avatar" value=6 checked>
-						<img src="{{STATIC_URL}}img/user/avatar6.png" alt="User Avatar 1" height=55 width=55 />
+						<img src="/static/img/user/avatar6.png" alt="User Avatar 1" height=55 width=55 />
 					</div>
 					<div class="media-body">
 						<input type="radio" name="img_avatar" value=2>
-						<img src="{{STATIC_URL}}img/user/avatar0.png" alt="Avatar 2" height=55 width=55 />
+						<img src="/static/img/user/avatar0.png" alt="Avatar 2" height=55 width=55 />
 					</div>
-				</li>
+				</li> -->
 			{% for i, j in rang %}
-				<li class="media">
+				<!-- <li class="media"> -->
+				<tr>
+					<th>
 						<div class="media-body">
 							<input type="radio" name="img_avatar" value={{i}}>
-						   <img src="{{STATIC_URL}}img/user/avatar{{i}}.png" alt="User Avatar" height=55 width=55 />
-					
+						   <img src="/static/img/user/avatar{{i}}.png" alt="User Avatar" height=55 width=55 />
 						</div>
+					</th>
+					<th>
 						<div class="media-body">
 							<input type="radio" name="img_avatar" value="{{j}}">
-						   <img src="{{STATIC_URL}}img/user/avatar{{j}}.png" alt="User Avatar" height=55 width=55 />
-					
+						   <img src="/static/img/user/avatar{{j}}.png" alt="User Avatar" height=55 width=55 />
 						</div>
-					</li>	
+					</th>
+				</tr>
+				<!-- </li>	 -->
 			{% endfor %}
-            </ul>
+            <!-- </ul> -->
+			</table>
                 </div>
 				 </form> 
             </div>
     </div>
 </div>
-	<hr>
+	<hr width="80%">
+	<footer>
 	<div align="center">
-		<p><h4 >iaBoots es pionera en el mercado conversacional en idioma espa&ntilde;ol</h4></p> 
-		<p><h3>Hacemos posible que sus clientes siempre encuentren lo que buscan</h3></p>
+		<p><h3>Somos pioneros en el Mercado Conversacional en idioma Espa&ntilde;ol</h3></p>
+        <p>© iaBoots 2016</p>
 	</div>
+</footer>
 </body>
 </html>
