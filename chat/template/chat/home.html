@@ -12,15 +12,16 @@
 	<link href="{{STATIC_URL}}css/style.css" rel="stylesheet" />
   </head>
 <body>
-	<div class="container">
+	<div class="container" align="center">
 	 <div class="page-header">
-		<p><h1 align="center">BIENVENID@S A IABOOTS</h1></p>
-		<p><h3 align="center">P&aacute;gina de bots conversacionales</h3></p>
+		<p><h1 align="center">BIENVENIDO A <img src="{{STATIC_URL}}img/home/iabots.png" height="100px" width="140px"></h1></p>
+		
+		<p><h3 align="center">"Nuestra filosof&iacute;a es que las personas responden mejor a las conversaciones, por eso ponemos todo en el chat y usamos el chat para todo'"</h3></p>
      </div>
-	<div class="col-md-6">
+	<div class="col-md-7">
 		<form action="/interact" method="GET" >
 		<!-- Inicio de la opcion escoger bot -->
-		<h3>Escoja el bot:</h3>
+		<h3>Escoje un bot:</h3>
 			<div class="panel-heading">
 				<select class="form-control" name="numbot">
 					<option value=1>Amigo Virtual</option>
@@ -31,7 +32,7 @@
 			</div>
 		<!-- fin de escoger bot -->
 		
-		<h3>Entre su nombre y escoja su avatar:</h3>
+		<h3>Entre su nombre y escoja un avatar:</h3>
 		<div class="input-group">
 			
 			<input  class="form-control" style="heigth=30px;" type="text" name="n" placeholder="Invitado"/>
@@ -47,11 +48,7 @@
 		<p>Libre de publicidad</p></h4>
 			<p>Encuentre todo sobre nosotros en nuestro
 			<a href="www.iaboots.com">Sitio oficial</a></p>
-			<p  align="right">S&iacute;guenos en twitter: @iabots_twitt</p><hr>
-				<p><h4>Pr&oacute;ximas caracter&iacute;sticas</h4></p>	
-				<p>1. Hacer chistes.</p>	
-				<p>2. Res&uacute;menes y estad&iacute;sticas de textos.</p>	
-				<p>3. Capacidad de aprender.</p>	
+			<p  align="right">S&iacute;guenos en twitter: <b>@iabots_twitt</b></p><hr>
 			</div>
 		</div>
 	<div class="col-md-3">
@@ -61,28 +58,28 @@
             </div>
             <div class="panel-body">
                 <ul class="media-list">
-				<!-- valor predefinido, no se decirlo en ingles jajaj -->
+				<!-- valor predefinido -->
 				<li class="media">
 					<div class="media-body">
-						<div class="media">
-							<div class="media-body" >
-								<input type="radio" name="img_avatar" value=6 checked>
-							   <img src="{{STATIC_URL}}img/user/avatar6.png" alt="User Avatar" height=55 width=55 />
-							</div>
-						</div>
-
+						<input type="radio" name="img_avatar" value=6 checked>
+						<img src="{{STATIC_URL}}img/user/avatar6.png" alt="User Avatar 1" height=55 width=55 />
+					</div>
+					<div class="media-body">
+						<input type="radio" name="img_avatar" value=2>
+						<img src="{{STATIC_URL}}img/user/avatar0.png" alt="Avatar 2" height=55 width=55 />
 					</div>
 				</li>
-			{% for i in rang %}
+			{% for i, j in rang %}
 				<li class="media">
 						<div class="media-body">
-							<div class="media">
-								<div class="media-body" >
-									<input type="radio" name="img_avatar" value={{i}}>
-								   <img src="{{STATIC_URL}}img/user/avatar{{i}}.png" alt="User Avatar" height=55 width=55 />
-								</div>
-							</div>
-
+							<input type="radio" name="img_avatar" value={{i}}>
+						   <img src="{{STATIC_URL}}img/user/avatar{{i}}.png" alt="User Avatar" height=55 width=55 />
+					
+						</div>
+						<div class="media-body">
+							<input type="radio" name="img_avatar" value="{{j}}">
+						   <img src="{{STATIC_URL}}img/user/avatar{{j}}.png" alt="User Avatar" height=55 width=55 />
+					
 						</div>
 					</li>	
 			{% endfor %}
@@ -92,6 +89,10 @@
             </div>
     </div>
 </div>
-	
+	<hr>
+	<div align="center">
+		<p><h4 >iaBoots es pionera en el mercado conversacional en idioma espa&ntilde;ol</h4></p> 
+		<p><h3>Hacemos posible que sus clientes siempre encuentren lo que buscan</h3></p>
+	</div>
 </body>
 </html>

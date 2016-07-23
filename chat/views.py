@@ -20,7 +20,8 @@ def ask(request):
 	return HttpResponse(response)
 
 def home(request):
-    return render_to_response('chat/home.html', { "rang" : range(6)}, context_instance=RequestContext(request))
+	noImg = ([2, 1], [3, 4], [5, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17])
+	return render_to_response('chat/home.html', { "rang" : noImg}, context_instance=RequestContext(request))
 
 def interact(request):
 	usuario = str(request.GET['n'])
